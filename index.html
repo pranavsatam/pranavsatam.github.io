@@ -1,31 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tic-Tac-Toe Neon</title>
+  <title>Ingoude - Create cozy living with eco-furnish</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h2>Tic-Tac-Toe</h2>
-    <div id="game-board">
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
-      <div class="cell" data-cell></div>
+  <header>
+    <nav>
+      <div class="logo">Pranav Satam</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Catalog</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" placeholder="Find your item">
+        <button class="search-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Create cozy living with eco-furnish</h1>
+        <p>Get woodenly artisan chair now & get special offer</p>
+        <a href="#" class="cta">Grab Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="hero-image.jpg" alt="Eco-friendly furniture">
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature-item">
+        <img src="feature-icon-1.svg" alt="Eco-friendly">
+        <h3>Eco-friendly</h3>
+        <p>Our products are made from sustainable materials.</p>
+      </div>
+      <div class="feature-item">
+        <img src="feature-icon-2.svg" alt="Artisan Crafted">
+        <h3>Artisan Crafted</h3>
+        <p>Each piece is handcrafted by skilled artisans.</p>
+      </div>
+      <div class="feature-item">
+        <img src="feature-icon-3.svg" alt="Cozy Living">
+        <h3>Cozy Living</h3>
+        <p>Enjoy a warm, inviting atmosphere with our furniture.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <p>Ingoude is a brand dedicated to creating eco-friendly and artisan-crafted furniture for cozy living.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Catalog</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p>Phone: 8850186938</p>
+        <p>Email: pranavrajansatam@gmail.com</p>
+      </div>
     </div>
-    <div id="message-container" class="hidden">
-      <p id="message-text"></p>
-      <button id="restart-button">Play Again</button>
+    <div class="copyright">
+      &copy; 2024 pranavsatam. All rights reserved.
     </div>
-  </div>
-  <canvas id="fireworks" class="hidden"></canvas>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

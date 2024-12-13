@@ -194,7 +194,7 @@ footer {
 /* Media Queries */
 
 /* For devices with a maximum width of 768px */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   nav ul {
     flex-direction: column;
     align-items: flex-start;
@@ -229,7 +229,7 @@ footer {
 }
 
 /* For devices with a maximum width of 480px */
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
   .logo {
     font-size: 18px;
   }
